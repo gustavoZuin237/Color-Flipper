@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    background-color: black;
+}
+
+#links {
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#flipper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 12rem;
+    gap: 2rem;
+}
+
+#color {
+    padding: .5rem;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 0;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: .5rem;
+}
